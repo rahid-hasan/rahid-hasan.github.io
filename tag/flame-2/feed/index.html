@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Cry of a Coder &#187; flame</title>
+	<atom:link href="http://blog.rahidhasan.com/tag/flame-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.rahidhasan.com</link>
+	<description>Rahid Hasan&#039;s Blog</description>
+	<lastBuildDate>Wed, 23 Jul 2014 17:56:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.9.1</generator>
+	<item>
+		<title>Update/Flash your Firefox OS Device Flame</title>
+		<link>http://blog.rahidhasan.com/update-your-firefox-os-device-flame/</link>
+		<comments>http://blog.rahidhasan.com/update-your-firefox-os-device-flame/#comments</comments>
+		<pubDate>Wed, 23 Jul 2014 17:51:23 +0000</pubDate>
+		<dc:creator><![CDATA[Rahid Hasan]]></dc:creator>
+				<category><![CDATA[Firefox OS]]></category>
+		<category><![CDATA[Mozilla]]></category>
+		<category><![CDATA[flame]]></category>
+		<category><![CDATA[fxos]]></category>
+
+		<guid isPermaLink="false">http://blog.rahidhasan.com/?p=90</guid>
+		<description><![CDATA[Flame is a newly introduced awesome device powered by Firefox OS. Unfortunately unlike GeeksPhone it has no ROM download site. But don&#8217;t worry its not tough to update your Flame. You need a Linux or Mac OSX for this. First visit this link ftp://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame/. Download Gaia.zip &#038; b2g-XX.0a1.en-US.android-arm.tar.gz . Extracting both file will give you&#8230;]]></description>
+				<content:encoded><![CDATA[<p>Flame is a newly introduced awesome device powered by Firefox OS. Unfortunately unlike GeeksPhone it has no ROM download site. But don&#8217;t worry its not tough to update your Flame. You need a Linux or Mac OSX for this. First visit this link <a href="ftp://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame/" target="_blank">ftp://ftp.mozilla.org/pub/mozilla.org/b2g/nightly/latest-mozilla-central-flame/</a>. Download Gaia.zip &#038; b2g-XX.0a1.en-US.android-arm.tar.gz . Extracting both file will give you two folder &#8216;gaia&#8217; &#038; &#8216;b2g&#8217;. Now you just need a executable binary to flash your phone to a latest FxOS version. You can download it from <a href="https://copy.com/L8jwK1gozfrd" title="here" target="_blank">here</a>.</p>
+<div id="attachment_92" style="width: 810px" class="wp-caption aligncenter"><a href="http://blog.rahidhasan.com/wp-content/uploads/2014/07/IMG_0652.jpg"><img src="http://blog.rahidhasan.com/wp-content/uploads/2014/07/IMG_0652.jpg" alt="Flame with FxOS 2.1" width="800" height="800" class="size-full wp-image-92" /></a><p class="wp-caption-text">Flame with FxOS 2.1</p></div>
+<p>Now connect your device with your computer. Open the Terminal &#038; run<br />
+<code>adb devices</code></p>
+<p>It should output like:<br />
+<code><br />
+Rahids-MacBook-Air:~ rahid$ adb devices<br />
+List of devices attached<br />
+3734ce74	device<br />
+</code></p>
+<p>If it returns like &#8216;adb: command not found&#8217; then you have to configure adb in your system. Check <a href="https://developer.mozilla.org/en-US/Firefox_OS/Debugging/Installing_ADB" title="here" target="_blank">here</a> to configure adb.</p>
+<p>If it returns no devices then make sure your device is connected &#038; remote debugging is enabled in your device.</p>
+<p>Now keep both &#8216;gaia&#8217;, &#8216;b2g&#8217; &#038; exceutable file &#8216;flash_Gg.sh&#8217; in same directory. Access to that directory through terminal &#038; run</p>
+<p><code>./flash_Gg.sh</code></p>
+<p>It should works like a champ &#038; your Flame should be updated to the latest FxOS version.</p>
+<p>Special thanks to Guillermo Movia!</p>
+<p>Enjoy :D</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.rahidhasan.com/update-your-firefox-os-device-flame/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
